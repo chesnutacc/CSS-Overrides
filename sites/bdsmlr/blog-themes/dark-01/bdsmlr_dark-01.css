@@ -1,0 +1,154 @@
+/*
+Custom Theme by Chesnut
+	BDSMLR: https://chesnut.bdsmlr.com/
+	GitHub: https://github.com/chesnutacc
+
+Theme is still a work in progress. For updated code, see the "Source Code" on GitHub (link below)
+
+Source Code:
+https://github.com/chesnutacc/CSS-Overrides/blob/main/sites/bdsmlr/blog-themes/dark-01/bdsmlr_dark-01.css
+
+Questions? Join the Discussion on GitHub:
+https://github.com/chesnutacc/CSS-Overrides/discussions
+	(BDSMLR messages might take a while)
+
+Problem with the theme? Report issues here:
+https://github.com/chesnutacc/CSS-Overrides/issues
+
+More themes coming soon! Check the link below for more (none yet):
+https://github.com/chesnutacc/CSS-Overrides/tree/main/sites/bdsmlr
+*/
+
+body {
+    background-color: hsla(210, 0%, 10%, 1.0) !important;
+}
+
+
+@media (min-width: 360px, max-width: 800px) {
+    .contentcontainer {
+        margin-left: 4.12% !important;
+        margin-right: 4.12% !important;
+        width: auto !important;
+    }
+    .postholder {
+        width: 95%;
+    }
+}
+
+
+.sidepostimg {
+    box-shadow: 1.75px 1.75px 4px hsla(0, 0%, 0%, .85) !important;
+}
+
+
+@media (min-width: 800px) {
+    .container {
+        margin-left: 8.33% !important;
+        margin-right: 8.33% !important;
+        width: auto !important;
+    }
+}
+
+
+.pub-blog-header {
+    background-origin: content-box !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-position: top !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100% !important;
+    height: auto !important;
+}
+
+
+.news.panel.adpanel {
+    background-color: hsla(210, 50%, 15%, 1.0) !important;
+    position: relative !important;
+    left: -8000px !important;
+    height: 0px !important;
+}
+
+
+.postholder {
+    background-color: hsla(210, 50%, 15%, 1.0) !important;
+    border-radius: 10px !important;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, .85) !important;
+}
+
+/*
+.image_container {
+    background-color: hsla(210, 50%, 15%, 1.0) !important;
+}
+*/
+
+.content .newsfeed .feed .news.panel .post_content .post_info a {
+    color: hsla(25, 75%, 60%, 1.0) !important;
+    text-shadow: 0.75px 0.75px 1.5px hsla(0, 0%, 0%, .65) !important;
+}
+
+
+.post_info.pinfo a {
+    color: hsla(25, 75%, 60%, 1.0) !important;
+    text-shadow: 0.75px 0.75px 1.5px hsla(0, 0%, 0%, .65) !important;
+}
+
+
+.post_info.pinfo {
+    color: hsla(25, 75%, 60%, 1.0) !important;
+    text-shadow: 0.75px 0.75px 1.5px hsla(0, 0%, 0%, .65) !important;
+}
+
+
+.original a {
+    border-top-color: hsla(190, 30%, 50%, 1.0) !important;
+    color: hsla(75, 100%, 100%, 1.0) !important;
+    text-shadow: 0.75px 0.75px 1.5px hsla(0, 0%, 0%, .65) !important;
+}
+
+
+.thumbed a {
+    color: hsla(25, 75%, 60%, 1.0) !important;
+}
+
+
+.adata a {
+    color: hsla(25, 75%, 60%, 1.0) !important;
+    text-shadow: 0.75px 0.75px 1.5px hsla(0, 0%, 0%, .65) !important;
+}
+
+
+p,
+.comments {
+    color: hsla(0, 0%, 85%, 1.0) !important;
+    text-shadow: 0.75px 0.75px 1.5px hsla(0, 0%, 0%, .65) !important;
+}
+
+
+.singlecomment {
+    border-bottom-color: hsla(190, 30%, 50%, 1.0) !important;
+    color: hsla(0, 0%, 85%, 1.0) !important;
+    text-shadow: 0.75px 0.75px 1.5px hsla(0, 0%, 0%, .65) !important;
+}
+
+
+.tags {
+    color: hsla(25, 75%, 70%, 1.0) !important;
+    text-shadow: 0.75px 0.75px 1.5px hsla(0, 0%, 0%, .65) !important;
+}
+
+
+.footer .fa,
+.footer .far,
+.footer .fal,
+.footer .fab {
+  color: hsla(190, 30%, 50%, 1.0) !important;
+}
+
+
+.date,
+a .no_of_likes,
+.view_user_likes.linkylinky {
+    color: hsla(25, 75%, 70%, 1.0) !important;
+    text-shadow: 0.75px 0.75px 1.5px hsla(0, 0%, 0%, .65) !important;
+}
